@@ -41,7 +41,7 @@ build applications using RVVM.
 
 %prep
 rm -rf RVVM-%{rvvm_version}
-tar -xzf %{_sourcedir}/v%{rvvm_version}.tar.gz
+tar -xzf %{SOURCE0}
 %setup -n RVVM-%{rvvm_version} -T -D
 
 %build
